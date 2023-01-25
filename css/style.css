@@ -44,12 +44,29 @@ body {
   text-decoration: none;
 }
 
+.home_link:hover {
+  color: blue;
+}
+
+.home_link:active {
+  color: #F25822;
+}
+
 .item_link {
   color: #000000;
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
   text-decoration: none;
+}
+
+.item_link:hover {
+  color: blue;
+}
+
+.item_link:active {
+  color: #000000;
+  ;
 }
 
 .menu_button {
@@ -64,6 +81,14 @@ body {
   font-size: 12px;
   line-height: 14px;
   text-decoration: none;
+}
+
+.button_link:hover {
+  color: blue;
+}
+
+.button_link:active {
+  color: #FFFFFF;
 }
 
 .top {
@@ -120,6 +145,14 @@ body {
   text-decoration: none;
 }
 
+.start_link:hover {
+  color: blue;
+}
+
+.start_link:active {
+  color: #FFFFFF;
+}
+
 .btn_watch {
   align-items: center;
   background-color: #FFFFFF;
@@ -133,6 +166,14 @@ body {
   font-size: 15px;
   line-height: 18px;
   text-decoration: none;
+}
+
+.watc_link:hover {
+  color: blue;
+}
+
+.watc_link:active{
+  color: #AAAAAA;
 }
 
 .top_picture {
