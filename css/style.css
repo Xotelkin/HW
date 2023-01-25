@@ -76,6 +76,10 @@ body {
   padding: 12px 27px;
 }
 
+.menu_button:hover {
+  background-color: #03c032;
+}
+
 .button_link {
   color: #FFFFFF;
   font-size: 12px;
@@ -85,10 +89,12 @@ body {
 
 .button_link:hover {
   color: blue;
+  background: #03c032;
 }
 
 .button_link:active {
   color: #FFFFFF;
+  
 }
 
 .top {
@@ -138,6 +144,15 @@ body {
   padding: 16px 36px;
 }
 
+.btn_start:hover {
+  background-color: #03c032;
+}
+
+.btn_start:active {
+  background-color: #F25822;
+}
+
+
 .start_link {
   color: #FFFFFF;
   font-size: 15px;
@@ -159,6 +174,14 @@ body {
   border: none;
   display: flex;
   gap: 15px;
+}
+
+.btn_watch:hover {
+  background-color: #03c032;
+}
+
+.btn_watch:active {
+  background-color: #FFFFFF;
 }
 
 .watc_link {
