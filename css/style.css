@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #FFFFFF;
+  color: #000000;
+  font-family: "Roboto";
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.header_container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px;
+  margin: 0 0 0 29.5%;
+}
+
+.menu_link {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px;
+  list-style: none;
+  padding: 11px;
+}
+
+.home_link {
+  color: #F25822;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.item_link {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.menu_button {
+  background: #F25822;
+  border: 0;
+  border-radius: 30px;
+  padding: 12px 27px;
+}
+
+.button_link {
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: none;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.top_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 39px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.page_top_desc {
+  margin-bottom: 103px;
+  margin-top: 143px;
+  max-width: 543px;
+  width: 100%;
+}
+
+.page_top_title {
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 17px;
+}
+
+.page_top_txt {
+  color: #888888;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 37px;
+}
+
+.wrp_btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+}
+
+.btn_start {
+  background: #F25822;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  padding: 16px 36px;
+}
+
+.start_link {
+  color: #FFFFFF;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.btn_watch {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: none;
+  display: flex;
+  gap: 15px;
+}
+
+.watc_link {
+  color: #AAAAAA;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.top_picture {
+  margin-top: 84px;
+  margin-bottom: 163px;
+}
+
+.top_logos {
+  display: flex;
+  justify-content: center;
+  padding: 97px 0;
+}
+
+.logos {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.logos_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  list-style: none;
+}
